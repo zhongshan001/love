@@ -310,55 +310,55 @@
   
      const targets = []; 
   
-     const fidelity = 3; 
+     Const 忠诚=3;
   
-     let counter = 0; 
+     让 柜台=0;
   
-     c2.width = c3.width = window.innerWidth; 
+C2.宽度=c3.宽度=窗口。innerWidth;
   
-     c2.height = c3.height = window.innerHeight; 
+C2.高度=c3.高度=窗口。innerHeight;
   
-     ctx1.fillStyle = '#000'; 
+CTX1.fillStyle='#000';
   
-     const text = '每个人都终究奔向不同的方向。' 
+     Const 文本='🐶明月借我200块' 
   
-     let textWidth = 99999999; 
+     让 textwidth=99999999;
   
   
   
-     while (textWidth > window.innerWidth) { 
+     在……期间 (textwidth>窗口。innerWidth) { 
   
-       ctx1.font = `900 ${fontSize--}px Arial`; 
+CTX1.字体=`900${fontSize--}PX Arial';
   
-       textWidth = ctx1.measureText(text).width; 
+textwidth=ctx1。measureText(文本).宽度;
   
      } 
   
   
   
-     c1.width = textWidth; 
+C1.宽度=文本宽度；
   
-     c1.height = fontSize * 1.5; 
+C1.高度=fontSize*1.5;
   
-     ctx1.font = `900 ${fontSize}px Arial`; 
+CTX1.字体=`900${fontsize}PX Arial';
   
-     ctx1.fillText(text, 0, fontSize); 
+CTX1.fillText(文本，0，fontSize);
   
-     const imgData = ctx1.getImageData(0, 0, c1.width, c1.height); 
+     Const imgData=ctx1。getImageData(0,0，c1.宽度，c1.高度);
   
-     for (let i = 0, max = imgData.data.length; i < max; i += 4) { 
+     为 (让 我=0,最大值=imgData。数据.长度；i<max；i+=4) { 
   
-       const alpha = imgData.data[i + 3]; 
+       Const 阿尔法=imgData。数据[I+3];
   
-       const x = Math.floor(i / 4) % imgData.width; 
+       Const x=数学。地板(I/4)%imgData。宽度;
   
-       const y = Math.floor(i / 4 / imgData.width); 
+       Const y=数学。地板(I/4/imgData.宽度);
   
   
   
-       if (alpha && x % fidelity === 0 && y % fidelity === 0) { 
+       如果 (Alpha&&x%保真度===0&&Y%保真度===0) { 
   
-         targets.push({ x, y }); 
+目标。推({ x,y });
   
        } 
   
@@ -366,25 +366,25 @@
   
   
   
-     ctx3.fillStyle = '#FFF'; 
+CTX3.fillStyle='#FFF';
   
-     ctx3.shadowColor = '#FFF'; 
+CTX3.shadowColor='#FFF';
   
-     ctx3.shadowBlur = 25; 
+CTX3.shadowBlur=25;
   
   
   
-     // ANIMATION LOOP 
+     //动画循环
   
-     (function loop() { 
+     (功能 环() { 
   
-       ctx2.fillStyle = "rgba(0, 0, 0, .1)"; 
+CTX2.fillStyle="rgba(0，0，0，.1)";
   
-       ctx2.fillRect(0, 0, c2.width, c2.height); 
+CTX2.fillRect(0,0，c2.宽度，c2.高度);
   
-       //ctx2.clearRect(0, 0, c2.width, c2.height); 
+       //ctx2.clearRect(0，0，c2.width，c2.height)；
   
-       counter += 1; 
+计数器+=1;
   
   
   
