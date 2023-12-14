@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a63110b-7816-4fdd-9629-89ffcfa520b4" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JyrcrfhfRNBfMWpEKhlWFGbVYB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8a63110b-7816-4fdd-9629-89ffcfa520b4" name="变更" comment="" />
+      <created>1673061245661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673061245661</updated>
+      <workItem from="1673061246792" duration="8815000" />
+      <workItem from="1673070190415" duration="228000" />
+      <workItem from="1673070496848" duration="124000" />
+      <workItem from="1673070672864" duration="1365000" />
+      <workItem from="1673074312240" duration="4485000" />
+      <workItem from="1673080520711" duration="839000" />
+      <workItem from="1673102719903" duration="635000" />
+      <workItem from="1673103380802" duration="427000" />
+      <workItem from="1673104474950" duration="38000" />
+      <workItem from="1673104976717" duration="71000" />
+      <workItem from="1673138341532" duration="2076000" />
+      <workItem from="1673143121943" duration="237000" />
+      <workItem from="1673151883880" duration="846000" />
+      <workItem from="1673154368504" duration="1067000" />
+      <workItem from="1673155739353" duration="703000" />
+      <workItem from="1673156479913" duration="223000" />
+      <workItem from="1673165922871" duration="630000" />
+      <workItem from="1673186504707" duration="932000" />
+      <workItem from="1673227302618" duration="85000" />
+      <workItem from="1673229725201" duration="2387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
